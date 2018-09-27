@@ -19,7 +19,7 @@ header {
     }
 }
 .borrar-curso {
-    background-color: red;
+    background-color: #39c975;
     border-radius: 50%;
     padding: 5px 10px;
     text-decoration: none;
@@ -58,7 +58,7 @@ ul {
 }
 .vacio {
     padding: 10px;
-    background-color: crimson;
+    background-color: #39c975;
     text-align: center;
     border-radius: 10px;
     color: white;
@@ -84,20 +84,17 @@ ul {
     display: block;
     text-indent: -9999px;
     width: 50px;
-    background-image: url(../img/lupa.png);
-    background-position: right center;
-    background-repeat: no-repeat;
     border:none;
 }
 
 
 .barra {
     padding: 20px 0;
-background: #741d51; /* Old browsers */
-background: -moz-linear-gradient(left, #741d51 0%, #e44e52 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #741d51 0%,#e44e52 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #741d51 0%,#e44e52 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', endColorstr='#e44e52',GradientType=1 ); /* IE6-9 */
+    background: #39c975; /* Old browsers */
+    background: -moz-linear-gradient(left, #39c975 0%, #198a1f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #39c975 0%,#198a1f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #39c975 0%,#198a1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39c975', endColorstr='#198a1f',GradientType=1 ); /* IE6-9 */
 }
 
 .barra p {
@@ -117,8 +114,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', end
         margin-bottom:0;
     }
 }
-
-
 
 .icono1 {
     background-image: url(../img/icono1.png);
@@ -165,14 +160,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', end
     font-size: 22px;
 }
 
-
 .footer {
     margin-top: 40px;
     border-top:1px solid #aaa;;
     padding-top: 40px;   
 }
 .footer .menu a{
-display: block;
-margin-bottom: 10px;
-text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
 }
